@@ -1,9 +1,16 @@
 //your JS code here. If required.
 
 var line = document.getElementById("line");
+var ctx = line.getContext('2d');
+
+    // Set the center point and initial angle
+    var centerX = line.width / 2;
+    var centerY = line.height / 2;
+    var angle = 0;
+
 function rotateLine(){
-      // Clear the canvas
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      // Clear the line
+      ctx.clearRect(0, 0, line.width, line.height);
 
       // Update the angle for rotation
       angle += 0.01;
