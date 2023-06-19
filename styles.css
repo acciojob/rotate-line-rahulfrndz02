@@ -1,10 +1,10 @@
 /*  your css code here. If applicable */
 #line{
 	position: absolute;
-	color: black;
-	width: 200px;
-	height: 2px;
-	border: 1px solid black;
-	background-color: rgb(0, 0, 0);
-	transform: rotate(20deg);
+    top: 40%;
+    left: 40%;
+    /* transform: translate(-50%, -50%); */
+    width: 200px;
+    height: 2px;
+    background-color: black;
 }
